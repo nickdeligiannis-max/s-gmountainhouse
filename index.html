@@ -378,6 +378,7 @@ section{ padding:88px 0; }
 .rating-summary{ display:flex; align-items:center; gap:22px; margin-bottom:44px; flex-wrap:wrap; }
 .rating-num{ font-family:'Fraunces',serif; font-size:56px; font-weight:600; line-height:1; }
 .stars{ color:var(--gold); letter-spacing:2px; font-size:18px; }
+.review-card .stars{ font-size:13px; letter-spacing:1.5px; }
 .reviews-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:22px; }
 @media (max-width:920px){ .reviews-grid{ grid-template-columns:repeat(2,1fr);} }
 @media (max-width:640px){ .reviews-grid{ grid-template-columns:1fr;} }
@@ -512,8 +513,8 @@ a:focus-visible, button:focus-visible, summary:focus-visible{ outline:2px solid 
       <span class="en">A mountain house in Tzoumerka, built by our grandparents' hands</span>
     </h1>
     <p class="lede">
-      <span class="el">Πέτρα, ξύλο και μια βεράντα με θέα σε όλη την οροσειρά. Φέρτε τον σκύλο, καθίστε δίπλα στο τζάκι, και φύγετε πιο χαλαροί απ' ό,τι ήρθατε.</span>
-      <span class="en">Stone, timber, and a porch that looks out over the whole mountain range. Bring the dog, sit by the fire, and leave more relaxed than you arrived.</span>
+      <span class="el">Πέτρα, ξύλο και απόλυτη γαλήνη στην καρδιά των Τζουμέρκων. Απολαύστε τον καφέ σας στη βεράντα με θέα τις κορυφές, αφήστε τον σκύλο σας να τρέξει ελεύθερος στην περιφραγμένη αυλή και νιώστε αμέσως σαν στο σπίτι σας.</span>
+      <span class="en">Stone, timber, and complete stillness in the heart of Tzoumerka. Enjoy your coffee on the porch with a view of the peaks, let your dog run free in the fenced yard, and feel at home from the moment you arrive.</span>
     </p>
 
     <div class="badge-row">
@@ -538,7 +539,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible{ outline:2px solid 
 <section class="stats topo-dark">
   <div class="wrap stats-grid">
     <div class="stat-item"><div class="stat-num">4.96</div><div class="stat-label"><span class="el">Βαθμολογία Airbnb</span><span class="en">Airbnb rating</span></div></div>
-    <div class="stat-item"><div class="stat-num">25</div><div class="stat-label"><span class="el">Κριτικές επισκεπτών</span><span class="en">Guest reviews</span></div></div>
+    <div class="stat-item"><div class="stat-num">25+</div><div class="stat-label"><span class="el">Κριτικές επισκεπτών</span><span class="en">Guest reviews</span></div></div>
     <div class="stat-item"><div class="stat-num">5</div><div class="stat-label"><span class="el">Χρόνια φιλοξενίας</span><span class="en">Years hosting</span></div></div>
     <div class="stat-item"><div class="stat-num">800<span style="font-size:.55em;">μ</span></div><div class="stat-label"><span class="el">Υψόμετρο</span><span class="en">Altitude</span></div></div>
   </div>
@@ -615,7 +616,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible{ outline:2px solid 
       <div class="room-card">
         <div class="stat">02</div>
         <h3><span class="el">Υπνοδωμάτιο δεύτερο</span><span class="en">Bedroom two</span></h3>
-        <p><span class="el">Κρεβάτι queen size, με θέα στα δέντρα της αυλής.</span><span class="en">A queen-size bed, looking out over the trees in the yard.</span></p>
+        <p><span class="el">Κρεβάτι queen size, με θέα την μπροστινή αυλή.</span><span class="en">A queen-size bed, looking out over the front yard.</span></p>
       </div>
       <div class="room-card">
         <div class="stat">03</div>
@@ -716,36 +717,42 @@ a:focus-visible, button:focus-visible, summary:focus-visible{ outline:2px solid 
     <div class="reviews-grid reveal">
 
       <div class="review-card">
+        <div class="stars">★★★★★</div>
         <p class="review-quote el">«Το σπίτι βρίσκεται σε εξαιρετική τοποθεσία με απεριόριστη θέα. Η αίσθηση που σου δημιουργεί είναι ότι βρίσκεσαι στο σπίτι σου στο χωριό. Το ίδιο και ο σκυλάκος μας απόλαυσε την περιφραγμένη αυλή.»</p>
         <p class="review-quote en">"The house sits in a remarkable spot with an endless view. It gives you the feeling of being at home in the village. Our dog loved the fenced yard just as much."</p>
         <div class="review-meta"><span>Maria</span><span class="src airbnb">Airbnb · Οκτ 2025</span></div>
       </div>
 
       <div class="review-card">
+        <div class="stars">★★★★★</div>
         <p class="review-quote el">«Το σπίτι είναι πανέμορφο, συνδυάζει παραδοσιακή και μοντέρνα αισθητική. Η θέα είναι καθηλωτική από τη βεράντα. Βουνά, δέντρα και απέραντος ουρανός.»</p>
         <p class="review-quote en">"The house is beautiful, a mix of traditional and modern. The view from the porch stops you in your tracks. Mountains, trees, and an endless sky."</p>
         <div class="review-meta"><span>Maria L.</span><span class="src google">Google</span></div>
       </div>
 
       <div class="review-card">
+        <div class="stars">★★★★★</div>
         <p class="review-quote el">«Εξαιρετική διαμονή, πεντακάθαρο το σπίτι και η κα. Σταυρούλα φιλικότατη με τρομερή ευγένεια. Η κεντρική πλατεία του χωριού, 5 λεπτά με τα πόδια, προσφέρει μοναδική αίσθηση χαλάρωσης.»</p>
         <p class="review-quote en">"A wonderful stay, the house spotless, and Mrs. Stavroula wonderfully kind. The village square, five minutes on foot, has a real sense of calm and great food."</p>
         <div class="review-meta"><span>Γιώργος</span><span class="src airbnb">Airbnb · Σεπ 2024</span></div>
       </div>
 
       <div class="review-card">
+        <div class="stars">★★★★★</div>
         <p class="review-quote el">«Πολύ ωραίο το σπίτι κι η τοποθεσία! Άνετα κρεβάτια, πολύ καθαρό όλο το σπίτι, με τζάκι που το αγαπήσαμε. Θέλουμε να ξανάρθουμε!»</p>
         <p class="review-quote en">"Lovely house, lovely spot. Comfortable beds, spotless throughout, and we fell for the fireplace. We want to come back."</p>
         <div class="review-meta"><span>Sofia</span><span class="src airbnb">Airbnb · Ιαν 2025</span></div>
       </div>
 
       <div class="review-card">
+        <div class="stars">★★★★★</div>
         <p class="review-quote el">«Τέλειο μέρος για απόδραση σε ορεινό προορισμό κι εξορμήσεις σε ποταμούς και καταρράκτες. Πολύ άνετο, καθαρό, με εξαιρετική επικοινωνία.»</p>
         <p class="review-quote en">"A perfect base for a mountain escape and trips to the rivers and waterfalls nearby. Very comfortable, spotless, and communication was excellent."</p>
         <div class="review-meta"><span>Fotis I.</span><span class="src google">Google</span></div>
       </div>
 
       <div class="review-card">
+        <div class="stars">★★★★★</div>
         <p class="review-quote el">«Ο χώρος πολύ καθαρός και περιποιημένος. Το σπίτι πλήρως εξοπλισμένο. Οι ιδιοκτήτες ευγενέστατοι και κατατοπιστικοί. Το προτείνω ανεπιφύλακτα.»</p>
         <p class="review-quote en">"Spotless and well cared for. The house is fully equipped. The hosts were kind and thorough. I recommend it without reservation."</p>
         <div class="review-meta"><span>Giota Z.</span><span class="src google">Google</span></div>
